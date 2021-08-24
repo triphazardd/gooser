@@ -1,5 +1,5 @@
 #maybe when i get a new laptop i should migrate my code here idk
-
+#i really don't know what I've written for this, it doesn't even work 
 import discord
 import os
 import discord.ext
