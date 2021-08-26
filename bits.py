@@ -6,7 +6,6 @@ import discord.ext
 from discord.ext import commands
 prefix="Gooser "
 token=token
-client = commands.Bot(command_prefix=prefix) #i'm not sure which one I actually need and so if I have both ik it works somehow, this might be that actual problem
 bot = commands.Bot(command_prefix=prefix)
 bot.remove_command('help')
 
@@ -23,4 +22,3 @@ async def urmum(ctx):
         ctx.send(embed=embed)
  
 bot.run(token)
-client.run(token) #see line 9 i guess
