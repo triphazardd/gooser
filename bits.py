@@ -1,7 +1,7 @@
 #maybe when i get a new laptop i should migrate my code here idk
 #i really don't know what I've written for this, it doesn't even work 
 import discord
-import os
+import random
 import discord.ext
 from discord.ext import commands
 prefix="Gooser "
@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix=prefix)
 bot.remove_command('help')
 
 standardmum = 5
-ur mum = ######come up with something for this
+ur mum = random.randint(1,10)
 
 @bot.command()
 async def urmum(ctx):
@@ -22,3 +22,4 @@ async def urmum(ctx):
         ctx.send(embed=embed)
  
 bot.run(token)
+#I wrote this so long ago i know it has no chance of working ever and I don't even remember enough python for it to work
